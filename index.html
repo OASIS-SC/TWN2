@@ -3,28 +3,104 @@
 <head>
 <meta charset="UTF-8">
 <title>Minecraft Server Shop</title>
+
+<style>
+
+body{
+background:#0f172a;
+color:white;
+font-family:Arial;
+text-align:center;
+margin:0;
+}
+
+header{
+background:#1e293b;
+padding:30px;
+}
+
+h1{
+margin:0;
+}
+
+.container{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.card{
+background:#1e293b;
+padding:25px;
+border-radius:12px;
+width:260px;
+box-shadow:0 0 15px rgba(0,0,0,0.5);
+}
+
+.card h2{
+margin-top:0;
+}
+
+button{
+background:#22c55e;
+border:none;
+padding:10px 20px;
+border-radius:6px;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background:#16a34a;
+}
+
+footer{
+margin-top:60px;
+padding:20px;
+background:#1e293b;
+}
+
+</style>
 </head>
 
-<body style="background:#111;color:white;text-align:center;font-family:Arial">
+<body>
 
+<header>
 <h1>Minecraft Server Setups</h1>
+<p>Choose the server setup that fits your project.</p>
+</header>
 
-<p>
-Here you will find multiple Minecraft server setups created from a shared base system.
-From a simple Paper-based server to advanced networks.
-Choose the one that fits your needs.
-</p>
+<div class="container">
 
-<h2>Available Servers</h2>
+<div class="card">
+<h2>Paper Server</h2>
+<p>Simple optimized Paper server setup.</p>
+<p><b>$5</b></p>
+<button>Buy</button>
+</div>
 
-<p>Paper Server Setup</p>
-<p>Lifesteal Server Setup</p>
+<div class="card">
+<h2>Lifesteal Server</h2>
+<p>Ready-to-use Lifesteal setup.</p>
+<p><b>$10</b></p>
+<button>Buy</button>
+</div>
 
-<p>Contact to purchase:</p>
+<div class="card">
+<h2>Network Setup</h2>
+<p>Advanced multi-server network.</p>
+<p><b>$20</b></p>
+<button>Buy</button>
+</div>
 
-<a href="https://discord.gg/yourlink" style="color:lime">
-Join our Discord
-</a>
+</div>
+
+<footer>
+<p>Contact: Discord</p>
+</footer>
 
 </body>
 </html>
